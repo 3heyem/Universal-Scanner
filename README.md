@@ -8,4 +8,8 @@
 - **Clipboard Integration**: Auto-copies the generated log file path straight to your clipboard the second a scan completes.
 - **Clean UI**: Minimalist, two-section layout (*Search & Filter* and *Export Settings*).
 
+## Usage
+```
+loadstring(game:HttpGet('https://raw.githubusercontent.com/3heyem/Universal-Scanner/refs/heads/main/Scanner'))()
+
 Open the menu (F5), configure your filters and options, and hit Run Scanner. Dumps are saved directly to your workspace folder at C:\matcha\workspace\Universal Scanner\.
